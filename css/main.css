@@ -142,7 +142,7 @@ a:hover {
 
 /* media queries below - only 1 is needed */
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:600px) {
 
   header img {
     display: none;
@@ -153,7 +153,6 @@ a:hover {
   }
 
   #container {
-      max-width: 400px; /* keep */
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(9, auto);
       grid-template-areas:
